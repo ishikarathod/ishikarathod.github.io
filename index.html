@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ishika Rathod · Data &amp; Business Analyst</title>
+<meta name="description" content="Portfolio of Ishika Rathod, a data-driven analytics and business analysis professional. Cornell MEng, Engineering Management. SQL, Python, Power BI, Tableau." />
+<meta name="author" content="Ishika Rathod" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Ishika Rathod · Data &amp; Business Analyst" />
+<meta property="og:description" content="Turning complex data into actionable business insight." />
+<meta property="og:image" content="assets/img/photo-portrait.jpg" />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23354024'/><text y='72' x='50' font-size='62' font-family='Helvetica,Arial' font-weight='bold' fill='%23E5D7C4' text-anchor='middle'>I</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Archivo+Narrow:wght@400;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script>document.documentElement.className += " js";</script>
+<link rel="stylesheet" href="assets/css/style.css?v=c4a24b36" />
+</head>
+<body>
+
+<!-- ══════════════════ LOADER ══════════════════ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <span class="loader__label">Personal Portfolio</span>
+    <span class="loader__name">Ishika<br />Rathod</span>
+    <span class="loader__count" id="loaderCount">00</span>
+  </div>
+  <div class="loader__bar"><i id="loaderBar"></i></div>
+</div>
+
+<!-- ══════════════════ RUNNING HEADER ══════════════════ -->
+<header class="runhead" id="runhead">
+  <span class="runhead__l">Personal&nbsp;Portfolio</span>
+  <span class="runhead__c">Ishika&nbsp;Rathod <em>· Data &amp; Business Analyst</em></span>
+  <span class="runhead__r"><span id="clock">··</span> · New&nbsp;York</span>
+</header>
+
+<!-- ══════════════════ NAV ══════════════════ -->
+<nav class="nav" id="nav" aria-label="Primary">
+  <a href="#top" class="nav__mark" aria-label="Home">I/R<sup>®</sup></a>
+  <ul class="nav__list" id="navList">
+    <li><a href="#intro" data-nav>Introduction</a></li>
+    <li><a href="#education" data-nav>Education</a></li>
+    <li><a href="#experience" data-nav>Experience</a></li>
+    <li><a href="#skills" data-nav>Skills</a></li>
+    <li><a href="#portfolio" data-nav>Portfolio</a></li>
+    <li><a href="#contact" data-nav>Contact</a></li>
+  </ul>
+  <a class="nav__cta" href="assets/docs/Ishika_Rathod_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+</nav>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <a href="#intro">Introduction</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#contact">Contact</a>
+  <a href="assets/docs/Ishika_Rathod_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+</div>
+
+<main id="top">
+
+<!-- ══════════════════ 01 · COVER ══════════════════ -->
+<section class="slide slide--dark cover" id="hero">
+  <div class="slide__frame">
+    <span class="corner corner--tl">01 / Cover</span>
+    <span class="corner corner--tr">v1</span>
+
+    <div class="cover__stage">
+
+      <h1 class="cover__title" id="coverTitle">
+        <span class="mask"><i>Hi,</i></span>
+        <span class="mask"><i><em>I&rsquo;m</em></i></span>
+        <span class="mask"><i>Ishika</i></span>
+      </h1>
+
+      <div class="cover__portrait">
+        <div class="cover__glow" aria-hidden="true"></div>
+        <img class="cover__figure" id="coverFigure"
+             src="assets/img/ishika-cutout.png"
+             alt="Ishika Rathod" width="659" height="1174" fetchpriority="high" />
+      </div>
+
+      <div class="note note--tl">
+        <p>Data &amp; business<br />analyst for<br />decision-making teams</p>
+        <svg class="squiggle" viewBox="0 0 90 54" fill="none" aria-hidden="true">
+          <path d="M2 6C26 2 62 8 76 30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M78 32L74 18M78 32L63 33" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="note note--tr">
+        <p>Cornell MEng &rsquo;26<br />Engineering Management</p>
+        <svg class="squiggle squiggle--flip" viewBox="0 0 90 54" fill="none" aria-hidden="true">
+          <path d="M2 6C26 2 62 8 76 30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M78 32L74 18M78 32L63 33" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="note note--bl">
+        <b>940K+</b>
+        <p>records turned<br />into decisions</p>
+      </div>
+
+      <a class="cover__cta btn btn--light magnetic" href="#contact">Work with me</a>
+    </div>
+
+    <p class="cover__lede">
+      <b>I turn messy data into something unique.</b>
+      <span>Scoring models, forecasts and dashboards that change what a room decides.</span>
+    </p>
+
+    <div class="hero__stats" data-stagger>
+      <div class="stat"><b data-count="940" data-suffix="K+">0</b><span>Records<br />engineered</span></div>
+      <div class="stat"><b data-count="18" data-suffix="%">0</b><span>Operational<br />efficiency gain</span></div>
+      <div class="stat"><b data-count="40" data-suffix="+">0</b><span>Regulatory<br />frameworks scored</span></div>
+      <div class="stat"><b data-count="3" data-suffix=".88">0</b><span>Cornell MEng<br />GPA</span></div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marquee">
+      <span>SQL</span><i>&#9670;</i><span>Python</span><i>&#9670;</i><span>Power BI</span><i>&#9670;</i><span>Tableau</span><i>&#9670;</i><span>Forecasting</span><i>&#9670;</i><span>ROI Analysis</span><i>&#9670;</i><span>Requirements Gathering</span><i>&#9670;</i><span>Agile / SDLC</span><i>&#9670;</i>
+      <span>SQL</span><i>&#9670;</i><span>Python</span><i>&#9670;</i><span>Power BI</span><i>&#9670;</i><span>Tableau</span><i>&#9670;</i><span>Forecasting</span><i>&#9670;</i><span>ROI Analysis</span><i>&#9670;</i><span>Requirements Gathering</span><i>&#9670;</i><span>Agile / SDLC</span><i>&#9670;</i>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 02 · INTRODUCTION ══════════════════ -->
+<section class="slide" id="intro">
+  <div class="slide__frame">
+    <span class="corner corner--tl">02 / Introduction</span>
+    <span class="corner corner--tr">Ishika Rathod</span>
+
+    <!-- row one: who, and the claim -->
+    <div class="intro__top">
+      <div class="intro__head">
+        <span class="script">Hey, I&rsquo;m Ishika</span>
+        <h2 class="display display--l reveal" data-split>Introduction</h2>
+      </div>
+      <div class="intro__say">
+        <p class="intro__statement" data-scramble>Most data arrives messy, contradictory and late.</p>
+        <p class="intro__sub">My job is the bit after that: finding the number that changes the
+          decision, then making it legible to the people who own it. Consulting, analytics
+          and process improvement, usually in that order.</p>
+      </div>
+    </div>
+
+    <!-- row two: the photographs beside the facts and the three moves, sized so
+         neither column runs out before the other -->
+    <div class="intro__body">
+      <div class="intro__media">
+        <figure class="frame reveal-clip">
+          <img src="assets/img/photo-portrait.jpg" alt="Ishika Rathod" width="1100" height="1388" loading="lazy" />
+        </figure>
+        <figure class="polaroid reveal-scale" data-parallax="-0.04">
+          <img src="assets/img/photo-cornell.jpg" alt="Bloomberg Center, Cornell Tech" width="900" height="1173" loading="lazy" />
+          <figcaption>Cornell &rsquo;26</figcaption>
+        </figure>
+      </div>
+
+      <div class="intro__side">
+        <ul class="intro__facts" data-stagger>
+          <li><span>Based</span> New York, NY</li>
+          <li><span>Reading</span> Cornell MEng &rsquo;26</li>
+          <li><span>Focus</span> Analytics &middot; Business Analysis</li>
+          <li><span>Languages</span> English &middot; Hindi &middot; German</li>
+          <li><span>Status</span> Open to full-time roles, 2026</li>
+        </ul>
+
+        <ol class="moves" data-stagger>
+          <li class="move">
+            <span class="move__no">01</span>
+            <div>
+              <h3>Find</h3>
+              <p>Statistical modelling, forecasting, ROI and profitability analysis. Working out which signal is real.</p>
+              <ul class="move__tags"><li>Python</li><li>R</li><li>SQL</li></ul>
+            </div>
+          </li>
+          <li class="move">
+            <span class="move__no">02</span>
+            <div>
+              <h3>Build</h3>
+              <p>Pipelines that run themselves, scoring models, dashboards a team can interrogate without filing a request.</p>
+              <ul class="move__tags"><li>Power BI</li><li>Tableau</li><li>Pipelines</li></ul>
+            </div>
+          </li>
+          <li class="move">
+            <span class="move__no">03</span>
+            <div>
+              <h3>Translate</h3>
+              <p>Requirements gathered from the people doing the work, and findings written so Legal, Finance and Operations can act.</p>
+              <ul class="move__tags"><li>Requirements</li><li>Stakeholders</li><li>Agile</li></ul>
+            </div>
+          </li>
+        </ol>
+
+        <a class="btn btn--light magnetic" href="assets/docs/Ishika_Rathod_Resume.pdf" target="_blank" rel="noopener">Download r&eacute;sum&eacute;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 03 · EDUCATION ══════════════════ -->
+<section class="slide" id="education">
+  <div class="slide__frame">
+    <span class="corner corner--tl">03 / Education</span>
+    <span class="corner corner--tr">I/R<sup>&reg;</sup></span>
+
+    <div class="edu__grid">
+      <h2 class="display display--l reveal" data-split>Education</h2>
+
+      <div class="edu__note reveal">
+        <p>
+          A quantitative engineering base rewired toward business: management
+          science, finance and applied AI, kept honest by coursework that ends
+          in a recommendation rather than a model score.
+        </p>
+      </div>
+
+      <ol class="edu__list">
+        <li class="edu__item reveal">
+          <span class="edu__year">Aug 2025 to May 2026</span>
+          <div class="edu__main">
+            <span class="orglogo orglogo--edu"><img src="assets/img/logos/cornell.png" alt="Cornell University logo" /></span>
+            <h3>Cornell University</h3>
+            <p class="edu__deg">Master of Engineering, Engineering Management &middot; GPA 3.88</p>
+            <p class="edu__where">Ithaca, New York</p>
+          </div>
+          <p class="edu__desc">
+            Relevant coursework: Economics and Finance &middot; Financial Statement
+            Analysis &middot; AI for Business Applications &middot; Data Driven Marketing.
+          </p>
+        </li>
+        <li class="edu__item reveal">
+          <span class="edu__year">Aug 2021 to Jul 2025</span>
+          <div class="edu__main">
+            <span class="orglogo orglogo--edu"><img src="assets/img/logos/mitwpu.png" alt="MIT World Peace University logo" /></span>
+            <h3>Dr. Vishwanath Karad MIT World Peace University</h3>
+            <p class="edu__deg">B.Tech., Computer Science Engineering &middot; GPA 3.77</p>
+            <p class="edu__where">Pune, India</p>
+          </div>
+          <p class="edu__desc">
+            Ranked 1st among 100 students &middot; 50% merit scholarship.
+          </p>
+        </li>
+      </ol>
+
+      <figure class="edu__photo reveal-clip">
+        <img src="assets/img/photo-campus.jpg" alt="Ishika on the Cornell campus" width="1000" height="1274" loading="lazy" />
+        <figcaption>Ithaca, New York</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 04 · EXPERIENCE ══════════════════ -->
+<section class="slide slide--soft" id="experience">
+  <div class="slide__frame">
+    <span class="corner corner--tl">04 / Experience</span>
+    <span class="corner corner--tr">2024 to 2026</span>
+
+    <div class="sechead">
+      <h2 class="display display--l reveal" data-split>Experience</h2>
+      <p class="sechead__note reveal">Three roles, one through-line: find the number
+        that changes the decision, then make it legible to the people who own it.</p>
+    </div>
+
+    <div class="htl" id="htl">
+      <div class="htl__scroller">
+        <div class="htl__rail" aria-hidden="true"><i id="htlProgress"></i></div>
+        <ol class="htl__track">
+          <li class="htl__item reveal">
+            <span class="htl__node" aria-hidden="true"></span>
+            <span class="htl__date">Jan 2026 to May 2026</span>
+
+            <article class="htl__card">
+              <span class="htl__no">01</span>
+              <span class="orglogo"><img src="assets/img/logos/hazen.png" alt="Hazen and Sawyer logo" /></span>
+              <h3>Hazen and Sawyer</h3>
+              <p class="htl__role">Data &amp; Strategy Consultant<em>New York</em></p>
+
+              <div class="htl__metric">
+                <b>40+</b>
+                <span>regulatory frameworks scored</span>
+              </div>
+
+              <ul class="htl__points">
+              <li>Scoring model across <b>10+ U.S. markets</b>, narrowing the field to four.</li>
+              <li>ROI and profitability analysis, written up for Legal, Finance and Operations.</li>
+              <li>Industry trend analysis feeding back into site-selection method.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="htl__item reveal">
+            <span class="htl__node" aria-hidden="true"></span>
+            <span class="htl__date">Jan 2025 to May 2025</span>
+
+            <article class="htl__card">
+              <span class="htl__no">02</span>
+              <span class="orglogo"><img src="assets/img/logos/shipdelight.png" alt="ShipDelight logo" /></span>
+              <h3>ShipDelight Logistics</h3>
+              <p class="htl__role">Data Analyst Intern<em>Mumbai, India</em></p>
+
+              <div class="htl__metric">
+                <b>18%</b>
+                <span>operational efficiency gain</span>
+              </div>
+
+              <ul class="htl__points">
+              <li>Automated SQL and Python pipelines across <b>940K+ records</b>.</li>
+              <li>Time-series forecasting that found a <b>12.7% growth opportunity</b>.</li>
+              <li>Worked with supply chain teams to turn findings into decisions.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="htl__item reveal">
+            <span class="htl__node" aria-hidden="true"></span>
+            <span class="htl__date">Jun 2024 to Dec 2024</span>
+
+            <article class="htl__card">
+              <span class="htl__no">03</span>
+              <span class="orglogo"><img src="assets/img/logos/zymr.png" alt="Zymr logo" /></span>
+              <h3>Zymr Systems</h3>
+              <p class="htl__role">Business &amp; Data Analyst Intern<em>Pune, India</em></p>
+
+              <div class="htl__metric">
+                <b>15%</b>
+                <span>fewer data inconsistencies</span>
+              </div>
+
+              <ul class="htl__points">
+              <li>Forecast accuracy up <b>6% on 1M+ records</b> with Random Forest and boosting.</li>
+              <li>Power BI and Tableau dashboards adopted by <b>3+ teams</b>.</li>
+              <li>QA validation pipelines that made cross-team analysis possible.</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+      <p class="htl__hint" aria-hidden="true">Scroll the timeline &#8594;</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 05 · SKILLS ══════════════════ -->
+<section class="slide" id="skills">
+  <div class="slide__frame">
+    <span class="corner corner--tl">05 / Skills</span>
+    <span class="corner corner--tr">Toolkit</span>
+
+    <h2 class="sk__title">
+      <span class="display display--l reveal" data-split>Skills &amp;</span>
+      <em class="accent-serif reveal">Expertise</em>
+    </h2>
+
+    <div class="sk__grid">
+
+      <!-- proficiency -->
+      <div class="sk__bars" data-stagger>
+        <div class="bar" data-level="95"><span class="bar__name">Strategy &amp; Business Analysis</span><span class="bar__pct">95%</span><i></i></div>
+        <div class="bar" data-level="92"><span class="bar__name">Data Analysis &amp; SQL</span><span class="bar__pct">92%</span><i></i></div>
+        <div class="bar" data-level="90"><span class="bar__name">Data Visualisation, Tableau / Power BI</span><span class="bar__pct">90%</span><i></i></div>
+        <div class="bar" data-level="88"><span class="bar__name">Python &amp; Machine Learning</span><span class="bar__pct">88%</span><i></i></div>
+        <div class="bar" data-level="85"><span class="bar__name">Requirements &amp; Stakeholder Management</span><span class="bar__pct">85%</span><i></i></div>
+        <div class="bar" data-level="80"><span class="bar__name">Financial Modelling &amp; ROI</span><span class="bar__pct">80%</span><i></i></div>
+      </div>
+
+      <!-- the belief that sits under the work -->
+      <blockquote class="sk__quote reveal">
+        <span class="sk__mark" aria-hidden="true">&ldquo;</span>
+        <p>Every dataset is an argument between the people who made it.
+           The analysis is the part where somebody finally settles it.</p>
+        <cite>Ishika Rathod</cite>
+      </blockquote>
+
+      <!-- how the work is actually done -->
+      <ul class="sk__cards" data-stagger>
+        <li class="sk__card">
+          <span class="sk__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <h3>Decision-first analysis</h3>
+          <p>Start from the call being made, then build only the analysis that changes it.</p>
+        </li>
+        <li class="sk__card">
+          <span class="sk__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <path d="M8.5 8 4.5 12l4 4M15.5 8l4 4-4 4"/>
+            </svg>
+          </span>
+          <h3>Pipelines that hold</h3>
+          <p>SQL and Python that run without supervision, with validation built in rather than bolted on.</p>
+        </li>
+        <li class="sk__card">
+          <span class="sk__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <path d="M4 19h16"/><rect x="5.5" y="11" width="3" height="5"/><rect x="10.5" y="7" width="3" height="9"/><rect x="15.5" y="13" width="3" height="3"/>
+            </svg>
+          </span>
+          <h3>Models people trust</h3>
+          <p>Forecasting and classification benchmarked honestly, with the failure cases written down.</p>
+        </li>
+        <li class="sk__card">
+          <span class="sk__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <path d="M4 6.5h11M4 12h16M4 17.5h8"/>
+            </svg>
+          </span>
+          <h3>Findings that travel</h3>
+          <p>The same result told twice: once for the people who build it, once for the people who sign it off.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- the full toolkit, grouped rather than listed -->
+    <div class="sk__kit">
+      <div class="sk__group reveal">
+        <h4>Analysis</h4>
+        <ul><li>Python</li><li>R</li><li>SQL</li><li>Excel</li><li>SAS</li></ul>
+      </div>
+      <div class="sk__group reveal">
+        <h4>Visualisation</h4>
+        <ul><li>Tableau</li><li>Power BI</li><li>Matplotlib</li><li>Seaborn</li></ul>
+      </div>
+      <div class="sk__group reveal">
+        <h4>Modelling</h4>
+        <ul><li>Regression</li><li>Random Forests</li><li>Gradient Boosting</li><li>SVM</li><li>Neural Networks</li><li>NLP</li><li>Time-Series</li><li>A/B Testing</li></ul>
+      </div>
+      <div class="sk__group reveal">
+        <h4>Business</h4>
+        <ul><li>Process Mapping</li><li>ROI Analysis</li><li>Requirements</li><li>Change Management</li><li>Stakeholder Engagement</li><li>Agile / SDLC</li></ul>
+      </div>
+      <div class="sk__group reveal">
+        <h4>Tools</h4>
+        <ul><li>Jira</li><li>SAP (ERP)</li><li>Git / GitHub</li><li>Microsoft Office</li><li>Google Workspace</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 06 · PORTFOLIO ══════════════════ -->
+<section class="slide slide--soft" id="portfolio">
+  <div class="slide__frame">
+    <span class="corner corner--tl">06 / Portfolio</span>
+    <span class="corner corner--tr">Selected</span>
+
+    <h2 class="display display--l reveal" data-split>Portfolio</h2>
+
+    <div class="folio" data-stagger>
+      <a class="folio__tile reveal" href="projects/bias-detection.html">
+        <img src="assets/img/p4.svg" alt="" />
+        <span class="folio__meta"><b>Bias Detection in Hiring Data</b><em>ML · Cornell</em></span>
+      </a>
+      <a class="folio__tile reveal" href="projects/clinical-documentation.html">
+        <img src="assets/img/p5.svg" alt="" />
+        <span class="folio__meta"><b>Clinical Documentation Automation</b><em>NLP / LLM</em></span>
+      </a>
+      <a class="folio__tile reveal" href="projects/market-entry.html">
+        <img src="assets/img/p3.svg" alt="" />
+        <span class="folio__meta"><b>Market Entry Scoring Model</b><em>Strategy · Consulting</em></span>
+      </a>
+      <a class="folio__tile reveal" href="projects/revenue-forecasting.html">
+        <img src="assets/img/p1.svg" alt="" />
+        <span class="folio__meta"><b>Revenue Forecasting</b><em>Time-Series</em></span>
+      </a>
+      <a class="folio__tile reveal" href="projects/kpi-dashboards.html">
+        <img src="assets/img/p2.svg" alt="" />
+        <span class="folio__meta"><b>KPI Dashboard Suite</b><em>Power BI · Tableau</em></span>
+      </a>
+      <a class="folio__tile reveal" href="projects/customer-segmentation.html">
+        <img src="assets/img/p6.svg" alt="" />
+        <span class="folio__meta"><b>Customer Segmentation</b><em>AMCIS 2025 Paper</em></span>
+      </a>
+    </div>
+
+    <p class="folio__foot reveal">
+      Six pieces of work spanning supervised learning, LLM pipelines, market
+      strategy and dashboarding. Each one shipped to a real audience with a
+      number attached to it.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════ 07 · LEADERSHIP ══════════════════ -->
+<section class="slide" id="leadership">
+  <div class="slide__frame">
+    <span class="corner corner--tl">07 / Leadership</span>
+    <span class="corner corner--tr">&amp; Achievements</span>
+
+    <div class="lead__grid">
+      <h2 class="display display--l reveal" data-split>Leadership</h2>
+      <ol class="lead__list" data-stagger>
+        <li class="reveal"><span>01</span>
+          <h3>Sponsorship Lead, BigRed Hacks</h3>
+          <p>Raised <b>$15,000+</b> in sponsorships for Cornell’s flagship hackathon, driving partnerships with industry leaders through targeted outreach.</p>
+        </li>
+        <li class="reveal"><span>02</span>
+          <h3>Teaching Assistant, Cornell Engineering</h3>
+          <p>Taught into <b>Managing a Culture of Innovation</b> and <b>Project Management</b>: graded assignments, gave written feedback, and supported cohorts working through applied strategy and delivery casework.</p>
+        </li>
+        <li class="reveal"><span>03</span>
+          <h3>PR &amp; Events Lead, Computer Society of India, MIT WPU</h3>
+          <p>Led <b>4+</b> campus events, building cross-functional collaboration across a 100+ student community.</p>
+        </li>
+        <li class="reveal"><span>04</span>
+          <h3>Logistics Lead, NLC Bharat</h3>
+          <p>Coordinated end-to-end accommodation and logistics for <b>65+</b> senior dignitaries under tight timelines.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 08 · CONTACT ══════════════════ -->
+<section class="slide slide--dark" id="contact">
+  <div class="slide__frame">
+    <span class="corner corner--tl">08 / Contact</span>
+    <span class="corner corner--tr">I/R<sup>®</sup></span>
+
+    <div class="thanks">
+      <h2 class="display display--xl reveal" data-split>Thanks</h2>
+      <div class="thanks__card reveal">
+        <p class="thanks__name">Ishika Rathod</p>
+        <p>New York, NY</p>
+        <p><a href="tel:+16076975735">(607) 697-5735</a></p>
+        <p><a href="mailto:ir289@cornell.edu">ir289@cornell.edu</a></p>
+        <p><a href="https://www.linkedin.com/in/ishika-rathod/" target="_blank" rel="noopener">LinkedIn ↗</a></p>
+        <p><a href="https://github.com/ishikarathod" target="_blank" rel="noopener">GitHub ↗</a></p>
+      </div>
+    </div>
+
+    <form class="form reveal" id="contactForm" novalidate>
+      <div class="form__row">
+        <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@company.com" /></label>
+      </div>
+      <div class="form__row">
+        <label>Subject
+          <select name="subject">
+            <option>Full-time opportunity</option>
+            <option>Contract / consulting</option>
+            <option>Research collaboration</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Company<input type="text" name="company" placeholder="Optional" /></label>
+      </div>
+      <label class="form__full">Message<textarea name="message" rows="4" required placeholder="A line or two about what you have in mind."></textarea></label>
+      <button type="submit" class="btn btn--light">Send message →</button>
+      <p class="form__note" id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>© <span id="year">2026</span> Ishika Rathod</span>
+  <span>Designed and built in New York</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<div class="cursor" id="cursor" aria-hidden="true">
+  <div class="cursor__ring" id="cursorRing"></div>
+  <div class="cursor__dot" id="cursorDot"></div>
+</div>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<script src="assets/js/main.js?v=965a2934"></script>
+</body>
+</html>

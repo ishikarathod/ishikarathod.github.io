@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+._*
+
+# editor / local
+.vscode/
+*.swp
+
+# Claude Code local config (not part of the site)
+.claude/
